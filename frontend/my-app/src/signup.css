@@ -1,0 +1,54 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .main-content{
+   padding-left: 200px;
+   padding-top: 30px;
+   background: linear-gradient(rgba(0, 0,0, 0.5),rgba(0, 0, 0, 0.5)),url('./Images/signback.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+   
+  }
+.lable-top{
+    font-weight: bold;
+    color: rgb(16, 16, 44);
+   
+ }
+ .regist{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: blue;
+   margin-top: 10px;
+ }
+   .back{
+      width: 380px;
+      height: 560px;
+      background-color: aliceblue;
+      padding-left: 30px;
+      border-radius: 20px;
+   }
+  
+  input{
+   margin-bottom: 30px;
+   margin-top: 10px;
+   padding: 7px;
+
+}
+#loginid{
+   line-height: 1;
+    text-decoration: none;
+    color: #ffffff;
+    background-color:rgb(0, 54, 231);
+    font-size: 18px;
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+    font-weight: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
+}

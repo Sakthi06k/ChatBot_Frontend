@@ -1,0 +1,127 @@
+body{
+    /* background-image: url("./Images/LoginBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* width: 200px;
+    height: 100vh; */
+
+}
+
+.bodi{
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-image: url("./Images/LoginBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+    
+}
+.card{
+    background-color:white;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    /* width: 900px;
+    height: 400px; */
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.img{
+    width: 300px;
+    height: 200px;
+}
+
+.main_content{
+    background-color:#E8E8E8;
+    width: 310px;
+    /* border-radius: 10px; */
+    height: 400px;
+    
+}
+
+.signin{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    color: rgb(56, 53, 53);
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 2;
+ 
+}
+.buttons{
+    padding-top: 5px;
+    padding-left: 20px;
+    display: flex;
+    gap: 50px;
+}
+.labels{
+    padding-top:10px;
+    padding-left: 20px;
+   
+}
+
+.lab{
+  font-size: 14px;
+  font-weight: 2px;
+}
+.original-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(228, 94, 53);
+    font-size: 18px;
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+    font-weight: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
+    
+  }
+  
+  .original-button:hover {
+    box-shadow: 0 0 rgba(0, 0, 0, 0);
+    background-color: rgb(165, 1, 1);
+  }
+  .regbutton:hover {
+    box-shadow: 0 0 rgba(0, 0, 0, 0);
+    background-color: rgb(13, 24, 126);
+  }
+  .regbutton{
+    line-height: 1;
+    text-decoration: none;
+    color: #ffffff;
+    background-color:rgb(0, 54, 231);
+    font-size: 18px;
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+    font-weight: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
+  }
+  input{
+    width: 260px;
+    border-color: #d5d5d5;
+  }
+  .para{
+    display: flex;
+    justify-content: center;
+    color: white;
+    /* padding-top: 2px; */
+    /* margin-top: 2px; */
+    font-size: 13px;
+    font-weight: 5px;
+  }

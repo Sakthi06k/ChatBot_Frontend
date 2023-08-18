@@ -1,0 +1,60 @@
+.Message{
+    width:30%;
+    margin-left: 35%;
+    background-color: grey;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 50px;
+    overflow-y: auto;
+}
+.bot{
+    padding: 4%;
+    color: rgba(255, 255, 255, 0.516);
+    background-color: rgba(65, 64, 64, 0.692);
+    text-align: center;
+    width: 60%;
+    margin-left: 6%;
+    border-radius: 20px;
+}
+#button{
+    margin-left: 8%;
+}
+.botbutton{
+    background-color: rgba(65, 64, 64, 0.692); 
+    color: rgba(255, 255, 255, 0.516);
+    padding: 2%;
+    border-radius: 20px;
+    margin-left: 1%;
+}
+.reply{
+    background-color: rgba(65, 64, 64, 0.692); 
+    color: rgba(255, 255, 255, 0.516);
+    padding: 2%;
+    border-radius: 20px;
+    margin-left: 30%;
+    text-align: center;
+    width: 60%;
+}
+.book{
+    margin-top: 2%;
+    padding: 4%;
+    color: rgba(255, 255, 255, 0.516);
+    background-color: rgba(65, 64, 64, 0.692);
+    width: 60%;
+    margin-left: 6%;
+    border-radius: 20px;
+}
+.book input{
+    width: 80%;
+    margin-left: 5%;
+    color: rgba(255, 255, 255, 0.516);
+    background-color: rgba(65, 64, 64, 0.692);
+    margin-top: 3%;
+    border: 1px solid white;
+}
+#button2{
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 3%;
+    border: 1px solid white;
+}
